@@ -1,20 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@100;200;400;500;700&display=swap');
 
 *{
 	margin: 0;
 	padding: 0;
-	list-style: none;
-	text-decoration: none;
-	border: none;
-	outline: none;
     font-family: 'Rubik';
 
 }
 
-
+/* HEADER */
 
 .header {
     border: 2px solid red;
+    padding: 0px 10%;
 }
 
 .nav {
@@ -22,9 +19,9 @@
     flex-direction: row;
     justify-content: flex-end;
     background-color: #F6F6F6;
-    padding: 10px;
-    max-width: 1200px;
-    width: 100%;
+    padding: 10px 0px;
+    max-width: 100%;
+    height: 20px;
 }
 
 .nav__links {
@@ -32,10 +29,10 @@
 }
 
 .nav__link{
-    padding: 0px 20px;
+    padding: 0px 10px;
     text-decoration: none;
     color: #6A6A6A;
-    font-weight: 1rem;
+    font-size: 0.8rem;
 }
 
 .nav__icons {
@@ -49,19 +46,17 @@
 .header__info {
     display: flex;
     align-items: center;
-    max-width: 1200px;
+    max-width: 100%;
     width: 100%;
+    justify-content: space-around;
 }
 .info__img {
     padding: 15px 30px;
-    width: 286px;
-    height: 89px;
+    width: 15%;
+    
 }
 
 .info__search {
-    border: 1px solid #707070;
-    padding: 10px 50px;
-    border-radius: 7px;
     outline: none;
 }
 
@@ -70,45 +65,45 @@
 }
 
 .info__check {
-    padding: 30px 30px;
+    padding: 3%;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .check__link{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1rem;
     font-weight: 500;
-    padding: 0px 5px;
     color: #272727;
+    margin: 0px 7px;
 }
 
 .check__img {
-    width: 23px;
-    height: 26px;
+    width: 10%;
 }
 
 .info__car {
-    padding: 15px 45px;
-    margin: 0px 60px;
+    padding: 1% 2%;
     background-color: #E40414;
     color: #FFFFFF;
     border-radius: 25px;
-    font-size: 15px;
+    font-size: 0.8rem;
 }
 
 .header__category {
     background-color: #F6F6F6;
     color: #6A6A6A;
     display: flex;
-    max-width: 1200px;
+    max-width: 100%;
     justify-content: space-between;
     align-items: center;
-    width: max-content;
+    height: 50px;
 }
 
 .menu__links {
     height: 100%;
+    width: 100%;
     transition: transform .5s;
     display: flex;
 }
@@ -117,7 +112,8 @@
 .menu__item {
     list-style: none;
     position: relative;
-    height: 100%;
+    height: 50px;
+    width: 100%;
     --clip: polygon(0 0, 100% 0, 100% 0, 0 0);
 
 }
@@ -133,10 +129,12 @@
     color: #6A6A6A;
     text-decoration: none;
     font-weight: 700;
-    padding: 30px 30px;
+    width: 100%;
+    padding: 0px 30px;
     display: flex;
     align-items: center;
     width: max-content;
+    height: 50px;
 
 }
 
@@ -154,6 +152,7 @@
     right: 0;
     bottom: 0;
     width: max-content;
+    width: 100%;
     transform: translateY(100%);
     background-color: #FFF;
     padding: 10px;
@@ -165,4 +164,228 @@
     color: #6A6A6A;
     font-weight: 400;
     padding: 20px 15px;
+}
+
+
+/* PARTE NUEVA TIENDA ONLINE */
+
+.main {
+    padding: 0px 10%;
+}
+
+.main__first {
+    
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat: none;
+    background-image: url(img/herramientas-electricas-1132x509.jpg );
+    opacity: 0.9;
+}
+
+.first__title{
+    color: #FFF;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.first__sub{
+    color: #FFF;
+    font-weight: 200;
+    padding-top: 5px;
+    font-size: 1.3rem;
+}
+
+
+/* PARTE DE LAS OFERTAS */
+
+.main__offer {
+    padding: 0px 35px;
+}
+
+.main__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 0px 0px 10px;
+    margin: 0px 30vw;
+    font-size: 1.7rem;
+}
+
+
+.container__p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+.offer__container {
+    padding-top: 30px;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1.7fr 1.7fr 0.1fr; 
+    gap: 10px 7px; 
+    grid-template-areas: 
+      "Categoria-1 Categoria-2 Categoria-3"
+      "Categoria-1 Categoria-4 Categoria-5"
+      ". . ."; 
+  }
+  .Categoria-1 { 
+    grid-area: Categoria-1;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background: url(img/herramientas-electricas-1132x509.jpg);
+    overflow: hidden;
+    height: 40vh;
+    border-radius: 10px; 
+}
+  .Categoria-2 { 
+    grid-area: Categoria-2; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(img/categoria-4.jpg);
+    overflow: hidden;
+    height: 100%;
+    border-radius: 10px; 
+}
+  .Categoria-4 {
+    grid-area: Categoria-4;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background: url(img/categoria-4.jpg);
+    overflow: hidden;
+    height: 100%;
+    border-radius: 10px; 
+}
+  .Categoria-5 {
+    grid-area: Categoria-5;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background: url(img/categoria-4.jpg);
+    overflow: hidden;
+    height: 100%;
+    border-radius: 10px; 
+}
+  .Categoria-3 { 
+    grid-area: Categoria-3; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(img/categoria-4.jpg);
+    overflow: hidden;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+/* PARTE DE LOS PRODUCTOS DESTACADOS */
+
+.main__products {
+    background-color: #B4111D;
+    height: 55vh;
+    margin-top: 30px;
+}
+
+.products__title {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    color: #FFF;
+    margin: 0px 25vw;
+    border-bottom: 2px solid #FFF;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-size: 1.7rem;
+}
+
+/* PARTE CONTAINERS PRODUCTOS DESTACADOS */
+
+.products__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 30vh;
+    margin-top: 50px;
+}
+
+.container__item {
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 1%;
+    border-radius: 7px;
+    box-shadow: -1px 0px 10px -3px #000000;
+}
+
+.item__descu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.item__img {
+    display: flex;
+    justify-content: center;
+    width: 15vw;
+    height: 25vh;
+    padding: 15px 0px;
+}
+
+.info__title {
+    font-weight: 700;
+    padding: 5px 0px;
+    font-size: 0.8rem;
+}
+
+.info__price {
+    font-weight: 700;
+    padding: 3px 0px;
+    font-size: 1rem;
+}
+
+.info__discount {
+    color: #848484;
+    font-weight: 700;
+    padding: 3px 0px;
+    font-size: 1rem;
+    text-decoration: line-through;
+    font-size: 0.8rem;
+}
+
+.item__exci {
+    background-color: #283283;
+    margin: 10px 20px 0px 15px;
+    padding: 3px 5px;
+    font-size: 0.6rem;
+    color: #FFF;
+    border-radius: 5px;
+}
+
+.item__excp {
+    background-color: #E40414;
+    margin: 10px 10px 0px 5px;
+    padding: 3px 5px;
+    font-size: 0.6rem;
+    color: #FFF;
+    border-radius: 5px;
+}
+
+.item__info {
+    box-shadow: -1px 0px 10px -3px #000000;
+    padding: 10px 10px;
+}
+
+
+
+.main__category {
+    margin-top: 100px;
 }
