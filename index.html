@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
 
     <header class="header">
+
         <nav class="nav">
             <div class="nav__links">
                 <a href="#" class="nav__link">Nuestra empresa</a>
@@ -18,168 +20,61 @@
                 <a href="#" class="nav__link">Contacto</a>
             </div>
             <div class="nav__icons">
-                <img src="img/instagram (1).svg" alt="" class="icons__img">
-                <img src="img/instagram (1).svg" alt="" class="icons__img">
-                <img src="img/instagram (1).svg" alt="" class="icons__img">
-                <img src="img/instagram (1).svg" alt="" class="icons__img">
+                <img src="img/bx-envelope.svg" alt="" class="icons__img">
+                <img src="img/bxl-whatsapp.svg" alt="" class="icons__img">
+                <img src="img/bxl-facebook.svg" alt="" class="icons__img">
+                <img src="img/bxl-instagram.svg" alt="" class="icons__img">
             </div>
         </nav>
+
         <section class="header__info">
-            <img src="img/logo_persa.svg" alt="" class="info__img">
-            <form class="info__search">
-                <input type="search" value="¿Que estas buscando?">
-            </form>
+            <img src="img/logo_persa.svg" alt="" class="header__img">
+            <div class="info__input">
+                <input type="search" placeholder="¿Qué estás buscando?..." class="input__search">
+                <img src="img/bx-search.svg" alt="" class="input__icon">
+            </div>
             <div class="info__check">
-                <img src="img/002-facebook-logo.svg" alt="" class="check__img">
+                <img src="img/bxs-user.svg" alt="" class="check__img">
                 <a href="#" class="check__link">Registrarse</a>
             </div>
             <div class="info__check">
-                <img src="img/002-facebook-logo.svg" alt="" class="check__img">
+                <img src="img/bx-right-arrow-circle.svg" alt="" class="check__img">
                 <a href="#" class="check__link">Ingresar</a>
             </div>
 
-            <input type="button" value="Ir al carrito" class="info__car">
+            <div class="info__buy">
+                <a href="#" class="info__car"> Ir al carrito</a>
+            </div>
+            
         </section>
 
-
         <section class="header__category">
-
             <ul class="menu__links">
-
-                <li class="menu__item">
-                    <a href="" class="menu__link">Categoria 1</a>
-                    <ul class="menu__nesting"> 
-                        <li class="menu__inside">
-                            <a href="" class="menu__link menu__link--inside">Subcategoria</a>
-                        </li>
-                        <li class="menu__inside">
-                            <a href="" class="menu__link menu__link--inside">Subcategoria</a>
-                        </li>
-                        <li class="menu__inside">
-                            <a href="" class="menu__link menu__link--inside">Subcategoria</a>
-                        </li>
-                        <li class="menu__inside">
-                            <a href="" class="menu__link menu__link--inside">Subcategoria</a>
-                        </li>
-                        <p class="menu__link menu__ inside inside__footer">Ver todo</p>
+                <li class="category__menu"><a href="#" class="link__category">Categoria 1</a></li>
+                <li class="category__menu">
+                    <a href="#" class="link__category">Categoria 2</a>
+                    <ul class="menu__vertical">
+                        <li class="vertical__list"><a href="#" class="vertical__title">Categoria</a></li>
+                        <li class="vertical__list"><a href="#" class="vertical__text">Categoria</a></li>
+                        <li class="vertical__list"><a href="#" class="vertical__text">Categoria</a></li>
+                        <li class="vertical__list"><a href="#" class="vertical__text">Categoria</a></li>
+                        <li class="vertical__list"><a href="#" class="vertical__text">Categoria</a></li>
                     </ul>
                 </li>
-
-                <li class="menu__item">
-                    <a href="" class="menu__link">Categoria 2</a>
-                    <ul class="menu__nesting"> 
-                        <li class="menu__inside">
-                            <a href="" class="menu__link menu__link--inside">Subcategoria</a>
-                        </li>
-                        <li class="menu__inside">
-                            <a href="" class="menu__link menu__link--inside">Subcategoria</a>
-                        </li>
-                        <li class="menu__inside">
-                            <a href="" class="menu__link menu__link--inside">Subcategoria</a>
-                        </li>
-                        <li class="menu__inside">
-                            <a href="" class="menu__link menu__link--inside">Subcategoria</a>
-                        </li>
-                        <p class="menu__link menu__ inside inside__footer">Ver todo</p>
+                <li class="category__menu"><a href="#" class="link__category">Categoria 3</a></li>
+                <li class="category__menu"><a href="#" class="link__category">Categoria 4</a></li>
+                <li class="category__menu">
+                    <a href="#" class="link__category">Categoria 5</a>
+                    <ul class="menu__vertical">
+                        <li class="vertical__list"><a href="#" class="vertical__title">Categoria</a></li>
+                        <li class="vertical__list"><a href="#" class="vertical__text">Categoria</a></li>
+                        <li class="vertical__list"><a href="#" class="vertical__text">Categoria</a></li>
+                        <li class="vertical__list"><a href="#" class="vertical__text">Categoria</a></li>
+                        <li class="vertical__list"><a href="#" class="vertical__text">Categoria</a></li>
                     </ul>
                 </li>
-
-                <li class="menu__item">
-                    <a href="" class="menu__link">Categoria 3</a>
-                    <ul class="menu__nesting"> 
-                        <li class="menu__inside">
-                            <a href="" class="menu__link menu__link--inside">Subcategoria</a>
-                        </li>
-                        <li class="menu__inside">
-                            <a href="" class="menu__link menu__link--inside">Subcategoria</a>
-                        </li>
-                        <li class="menu__inside">
-                            <a href="" class="menu__link menu__link--inside">Subcategoria</a>
-                        </li>
-                        <li class="menu__inside">
-                            <a href="" class="menu__link menu__link--inside">Subcategoria</a>
-                        </li>
-                        <p class="menu__link menu__ inside inside__footer">Ver todo</p>
-                    </ul>
-                </li>
-
-                <li class="menu__item">
-                    <a href="" class="menu__link">Categoria 4</a>
-                    <ul class="menu__nesting"> 
-                        <li class="menu__inside">
-                            <a href="" class="menu__link menu__link--inside">Subcategoria</a>
-                        </li>
-                        <li class="menu__inside">
-                            <a href="" class="menu__link menu__link--inside">Subcategoria</a>
-                        </li>
-                        <li class="menu__inside">
-                            <a href="" class="menu__link menu__link--inside">Subcategoria</a>
-                        </li>
-                        <li class="menu__inside">
-                            <a href="" class="menu__link menu__link--inside">Subcategoria</a>
-                        </li>
-                        <p class="menu__link menu__ inside inside__footer">Ver todo</p>
-                    </ul>
-                </li>
-
-                <li class="menu__item">
-                    <a href="" class="menu__link">Categoria 5</a>
-                    <ul class="menu__nesting"> 
-                        <li class="menu__inside">
-                            <a href="" class="menu__link menu__link--inside">Subcategoria</a>
-                        </li>
-                        <li class="menu__inside">
-                            <a href="" class="menu__link menu__link--inside">Subcategoria</a>
-                        </li>
-                        <li class="menu__inside">
-                            <a href="" class="menu__link menu__link--inside">Subcategoria</a>
-                        </li>
-                        <li class="menu__inside">
-                            <a href="" class="menu__link menu__link--inside">Subcategoria</a>
-                        </li>
-                        <p class="menu__link menu__ inside inside__footer">Ver todo</p>
-                    </ul>
-                </li>
-
-                <li class="menu__item">
-                    <a href="" class="menu__link">Categoria 6</a>
-                    <ul class="menu__nesting"> 
-                        <li class="menu__inside">
-                            <a href="" class="menu__link menu__link--inside">Subcategoria</a>
-                        </li>
-                        <li class="menu__inside">
-                            <a href="" class="menu__link menu__link--inside">Subcategoria</a>
-                        </li>
-                        <li class="menu__inside">
-                            <a href="" class="menu__link menu__link--inside">Subcategoria</a>
-                        </li>
-                        <li class="menu__inside">
-                            <a href="" class="menu__link menu__link--inside">Subcategoria</a>
-                        </li>
-                        <p class="menu__link menu__ inside inside__footer">Ver todo</p>
-                    </ul>
-                </li>
-
-                <li class="menu__item">
-                    <a href="" class="menu__link">Categoria 7</a>
-                    <ul class="menu__nesting"> 
-                        <li class="menu__inside">
-                            <a href="" class="menu__link menu__link--inside">Subcategoria</a>
-                        </li>
-                        <li class="menu__inside">
-                            <a href="" class="menu__link menu__link--inside">Subcategoria</a>
-                        </li>
-                        <li class="menu__inside">
-                            <a href="" class="menu__link menu__link--inside">Subcategoria</a>
-                        </li>
-                        <li class="menu__inside">
-                            <a href="" class="menu__link menu__link--inside">Subcategoria</a>
-                        </li>
-                        <p class="menu__link menu__ inside inside__footer">Ver todo</p>
-                    </ul>
-                </li>
-
-
+                <li class="category__menu"><a href="#" class="link__category">Categoria 6</a></li>
+                <li class="category__menu"><a href="#" class="link__category">Categoria 7</a></li>
             </ul>
         </section>
 
@@ -228,19 +123,13 @@
                         <p class="info__price">$XX.000</p>
                         <p class="info__discount">$XX.000</p>
                     </div>
-                </div>
-                <div class="container__item">
-                    <div class="item__descu">
-                        <p class="item__exci">exclusivo internet</p>
-                        <p class="item__excp">30%</p>
-                    </div>
-                    <div class="item__img">
-                        <img src="img/categoria-2.jpg" alt="" class="item__img">
-                    </div>
-                    <div class="item__info">
-                        <p class="info__title">Titulo producto</p>
-                        <p class="info__price">$XX.000</p>
-                        <p class="info__discount">$XX.000</p>
+                    <div class="item__button">
+                        <div class="button__math">
+                            <a href="#" class="button__ope">-</a>
+                            <p class="button__num">1</p>
+                            <a href="#" class="button__ope">+</a>
+                        </div>
+                        <a href="#" class="button__add">Agregar</a>
                     </div>
                 </div>
                 <div class="container__item">
@@ -256,6 +145,14 @@
                         <p class="info__price">$XX.000</p>
                         <p class="info__discount">$XX.000</p>
                     </div>
+                    <div class="item__button">
+                        <div class="button__math">
+                            <a href="#" class="button__ope">-</a>
+                            <p class="button__num">1</p>
+                            <a href="#" class="button__ope">+</a>
+                        </div>
+                        <a href="#" class="button__add">Agregar</a>
+                    </div>
                 </div>
                 <div class="container__item">
                     <div class="item__descu">
@@ -269,18 +166,281 @@
                         <p class="info__title">Titulo producto</p>
                         <p class="info__price">$XX.000</p>
                         <p class="info__discount">$XX.000</p>
+                    </div>
+                    <div class="item__button">
+                        <div class="button__math">
+                            <a href="#" class="button__ope">-</a>
+                            <p class="button__num">1</p>
+                            <a href="#" class="button__ope">+</a>
+                        </div>
+                        <a href="#" class="button__add">Agregar</a>
+                    </div>
+                </div>
+                <div class="container__item">
+                    <div class="item__descu">
+                        <p class="item__exci">exclusivo internet</p>
+                        <p class="item__excp">30%</p>
+                    </div>
+                    <div class="item__img">
+                        <img src="img/categoria-2.jpg" alt="" class="item__img">
+                    </div>
+                    <div class="item__info">
+                        <p class="info__title">Titulo producto</p>
+                        <p class="info__price">$XX.000</p>
+                        <p class="info__discount">$XX.000</p>
+                    </div>
+                    <div class="item__button">
+                        <div class="button__math">
+                            <a href="#" class="button__ope">-</a>
+                            <p class="button__num">1</p>
+                            <a href="#" class="button__ope">+</a>
+                        </div>
+                        <a href="#" class="button__add">Agregar</a>
                     </div>
                 </div>
             </div>
         </section>
 
         <section class="main__category">
-            <h2 class="main__title">CATEGORIAS</h2>
+            <h2 class="main__title">CATEGORÍAS</h2>
+            <div class="category__container">
+                <div class="category__left">
+                    <h2 class="left__info">TODO EN CONSTRUCCION</h2>
+                </div>
+                <div class="category__right">
+                    <div class="div carousel">
+                        <div class="div carousel__contenedor">
+                            <button aria-label="Anterior" class="carousel__anterior">
+                                <img src="img/bx-left-arrow-circle.svg" alt="">
+                            </button>
+
+                            <div class="carousel__lista">
+                                <div class="container__item">
+                                    <div class="item__descu">
+                                        <p class="item__exci">exclusivo internet</p>
+                                        <p class="item__excp">30%</p>
+                                    </div>
+                                    <div class="item__img">
+                                        <img src="img/categoria-2.jpg" alt="" class="item__img">
+                                    </div>
+                                    <div class="item__info">
+                                        <p class="info__title">Titulo producto</p>
+                                        <p class="info__price">$XX.000</p>
+                                        <p class="info__discount">$XX.000</p>
+                                    </div>
+                                    <div class="item__button">
+                                        <div class="button__math">
+                                            <a href="#" class="button__ope">-</a>
+                                            <p class="button__num">1</p>
+                                            <a href="#" class="button__ope">+</a>
+                                        </div>
+                                        <a href="#" class="button__add">Agregar</a>
+                                    </div>
+                                </div>
+
+                                <div class="container__item">
+                                    <div class="item__descu">
+                                        <p class="item__exci">exclusivo internet</p>
+                                        <p class="item__excp">30%</p>
+                                    </div>
+                                    <div class="item__img">
+                                        <img src="img/categoria-2.jpg" alt="" class="item__img">
+                                    </div>
+                                    <div class="item__info">
+                                        <p class="info__title">Titulo producto</p>
+                                        <p class="info__price">$XX.000</p>
+                                        <p class="info__discount">$XX.000</p>
+                                    </div>
+                                    <div class="item__button">
+                                        <div class="button__math">
+                                            <a href="#" class="button__ope">-</a>
+                                            <p class="button__num">1</p>
+                                            <a href="#" class="button__ope">+</a>
+                                        </div>
+                                        <a href="#" class="button__add">Agregar</a>
+                                    </div>
+                                </div>
+
+                                <div class="container__item">
+                                    <div class="item__descu">
+                                        <p class="item__exci">exclusivo internet</p>
+                                        <p class="item__excp">30%</p>
+                                    </div>
+                                    <div class="item__img">
+                                        <img src="img/categoria-2.jpg" alt="" class="item__img">
+                                    </div>
+                                    <div class="item__info">
+                                        <p class="info__title">Titulo producto</p>
+                                        <p class="info__price">$XX.000</p>
+                                        <p class="info__discount">$XX.000</p>
+                                    </div>
+                                    <div class="item__button">
+                                        <div class="button__math">
+                                            <a href="#" class="button__ope">-</a>
+                                            <p class="button__num">1</p>
+                                            <a href="#" class="button__ope">+</a>
+                                        </div>
+                                        <a href="#" class="button__add">Agregar</a>
+                                    </div>
+                                </div>
+
+                                <div class="container__item">
+                                    <div class="item__descu">
+                                        <p class="item__exci">exclusivo internet</p>
+                                        <p class="item__excp">30%</p>
+                                    </div>
+                                    <div class="item__img">
+                                        <img src="img/categoria-2.jpg" alt="" class="item__img">
+                                    </div>
+                                    <div class="item__info">
+                                        <p class="info__title">Titulo producto</p>
+                                        <p class="info__price">$XX.000</p>
+                                        <p class="info__discount">$XX.000</p>
+                                    </div>
+                                    <div class="item__button">
+                                        <div class="button__math">
+                                            <a href="#" class="button__ope">-</a>
+                                            <p class="button__num">1</p>
+                                            <a href="#" class="button__ope">+</a>
+                                        </div>
+                                        <a href="#" class="button__add">Agregar</a>
+                                    </div>
+                                </div>
+
+                                <div class="container__item">
+                                    <div class="item__descu">
+                                        <p class="item__exci">exclusivo internet</p>
+                                        <p class="item__excp">30%</p>
+                                    </div>
+                                    <div class="item__img">
+                                        <img src="img/categoria-2.jpg" alt="" class="item__img">
+                                    </div>
+                                    <div class="item__info">
+                                        <p class="info__title">Titulo producto</p>
+                                        <p class="info__price">$XX.000</p>
+                                        <p class="info__discount">$XX.000</p>
+                                    </div>
+                                    <div class="item__button">
+                                        <div class="button__math">
+                                            <a href="#" class="button__ope">-</a>
+                                            <p class="button__num">1</p>
+                                            <a href="#" class="button__ope">+</a>
+                                        </div>
+                                        <a href="#" class="button__add">Agregar</a>
+                                    </div>
+                                </div>
+                                
+                            </div>
+
+                            <button aria-label="Siguiente" class="carousel__siguiente">
+                                <img src="img/bx-right-arrow-circle.svg" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
+
+        <section class="main__brand">
+            <h2 class="brand__title">NUESTRAS MARCAS</h2>
+            <div class="brand__icons">
+                <img src="img/Captura web_30-3-2022_225419_xd.adobe.com.jpeg" alt="" class="brand__icon">
+            </div>
+            <div class="brand__info">
+                <div class="info__let">
+                    <img src="img/wwww.svg" alt="" class="info__img" >
+                    <div class="info__info">
+                        <h3 class="info__title">Despacho a domicilio</h3>
+                        <a href="#" class="info__link">Ver mas condiciones de despachos</a>
+                    </div>
+                </div>
+                <div class="info__let">
+                    <img src="img/wwww.svg" alt="" class="info__img">
+                    <div class="info__info">
+                        <h3 class="info__title">Despacho a domicilio</h3>
+                        <a href="#" class="info__link">Ver mas condiciones de despachos</a>
+                    </div>
+                </div>
+                <div class="info__let">
+                    <img src="img/wwww.svg" alt="" class="info__img">
+                    <div class="info__info">
+                        <h3 class="info__title">Despacho a domicilio</h3>
+                        <a href="#" class="info__link">Ver mas condiciones de despachos</a>
+                    </div>
+                </div>
+                <div class="info__let">
+                    <img src="img/wwww.svg" alt="" class="info__img">
+                    <div class="info__info">
+                        <h3 class="info__title">Despacho a domicilio</h3>
+                        <a href="#" class="info__link">Ver mas condiciones de despachos</a>
+                    </div>
+                </div>
+            </div>
+            <div class="brand__suscribe">
+            </div>
+        </section>
+
     </main>
 
+    <footer class="footer">
+        <footer class="footer__top">
+            <div class="footer__icon">
+                <img src="img/logo_persa.svg" alt="" class="icon">
+                <p class="icon__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Minus maxime assumenda ducimus voluptatibus et eveniet ratione, nihil harum? 
+                    Repudiandae natus pariatur molestias culpa voluptas ratione debitis ullam 
+                    praesentium quos saepe!</p>
+            </div>
+            <div class="footer__category">
+                <h3 class="footer__title">CATEGORIAS</h3>
+                <ul>
+                    <li class="footer__info">Construccion</li>
+                    <li class="footer__info">Ferreteria</li>
+                    <li class="footer__info">Herramientas</li>
+                    <li class="footer__info">Maquinarias</li>
+                    <li class="footer__info">Pinturas y Pisos</li>
+                    <li class="footer__info">Hogar y Jardin</li>
+                </ul>
+            </div>
+            <div class="footer__category">
+                <h3 class="footer__title">INFORMACION</h3>
+                <ul>
+                    <li class="footer__info">Empresas</li>
+                    <li class="footer__info">Valores y Marcas</li>
+                    <li class="footer__info">¿Como comprar?</li>
+                    <li class="footer__info">Metodos de despachos</li>
+                    <li class="footer__info">Terminos y condiciones</li>
+                </ul>
+            </div>
+            <div class="footer__category">
+                <h3 class="footer__title">MEDIOS DE PAGO</h3>
+                <ul>
+                    <img src="img/Captura web_30-3-2022_231252_xd.adobe.com.jpeg" alt="" class="img__pay">
+                </ul>
+            </div>
+            <div class="footer__category">
+                <h3 class="footer__title">SIGUENOS</h3>
+                
+                <ul>
+                    <li><img src="img/002-facebook-logo.svg" alt=""></li>
+                    <li class="footer__title">CONTACTANOS</li>
+                    <li class="footer__info">+56 9 39510685</li>
+                    <li class="footer__info">Lun a Vie</li>
+                </ul>
+            </div>
+        </footer>
+        <footer class="footer__bottom"></footer>
+        
+        <div class="footer__law">
+            <p class="law__text">
+                Persa Ferreteria MTS 2021. Todos los 
+                derechos reservados. Desarrollado por ADWISE SPA
+            </p>
+        </div>
+    </footer>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
     <script src="js/app.js"></script>
 </body>
 </html>
